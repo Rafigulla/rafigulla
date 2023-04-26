@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: last
+spec:
+  storageClassName: my-storage1
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 20Gi
