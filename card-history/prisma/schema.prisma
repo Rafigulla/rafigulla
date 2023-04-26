@@ -1,0 +1,39 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model humo {
+    id Int @id @default(autoincrement())
+    card String
+    tran_date DateTime
+    created_at DateTime @default(now())
+    card_type String @default("humo")
+    data Json
+}
+
+model uzcard {
+    id Int @id @default(autoincrement())
+    card String
+    tran_date DateTime
+    created_at DateTime @default(now())
+    card_type String @default("uzcard")
+    data Json
+}
+
+model cards {
+   id Int @id @default(autoincrement())
+   card String  
+   start_date String
+   start_date_format String?
+   end_date String
+   end_date_format String?
+   card_type String?
+}
