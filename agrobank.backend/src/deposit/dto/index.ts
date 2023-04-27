@@ -1,7 +1,0 @@
-export * from './myDepositDto'
-export * from './openDepositDto'
-export * from './depositByType'
-export * from './putmoneyDto'
-export * from './closeDepositDto'
-export * from './getVisaListDto'
-export * from './getMoneyDto'
