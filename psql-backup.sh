@@ -1,6 +1,6 @@
-#!/bin/bash
-#export PATH=/bin:/usr/bin:/usr/local/bin
-#TODAY=`date +"%d%b%Y"`
+#!/bin/bash     #### postgres uchun backup oladigan shell script 
+#export PATH=/bin:/usr/bin:/usr/local/bin     ### ushbu bo'lim esa variableslarni quyida kiritish uchun beriladi agar variables berilmasa bu kerak emas
+#TODAY=`date +"%d%b%Y"`    
 # Backup filelar saqlanadigan joy
 backupfolder=/backup/psql
 # backupni saqlash muddati va saqlaydigan filelarni o'zgaruvchilar qilib yaratib olindi
