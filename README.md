@@ -1,2 +1,3 @@
 ### Hi there 👋
-card_history and agrobank.backen foleders are backend api that it belongs to agrobank.uz
+👋 Hi, I’m @Rafigulla
+🧑‍💻 I'm a DevOps Engineer
